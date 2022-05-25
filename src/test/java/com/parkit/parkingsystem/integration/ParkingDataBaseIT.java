@@ -91,5 +91,25 @@ public class ParkingDataBaseIT {
     }
 
 
+    @Test()
+    public void testExitingCarDiscountWithTwoIncomingTime() {
+        //GIVEN
+        final double DISCOUNT = (double) 5 / 100;
+        testParkingACar();
+        ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
+        parkingService.processExitingVehicle();
+        testParkingACar();
+        Ticket inComingTicket = ticketDAO.getTicket(VEHICLE_REG_NUMBER);
+        long outTime = inComingTicket.getInTime().getTime() + 45 * 60 * 1000;
+        double priceDiscount = (0.75 * Fare.CAR_RATE_PER_HOUR) - (0.75 * Fare.CAR_RATE_PER_HOUR * DISCOUNT);
+
+        // WHEN
+        parkingService.processExitingVehicle(new Date(outTime));
+        Ticket ticket = ticketDAO.getTicket(VEHICLE_REG_NUMBER);
+
+        // THEN
+        assertEquals(priceDiscount, ticket.getPrice());
+
+    }
 
 }
