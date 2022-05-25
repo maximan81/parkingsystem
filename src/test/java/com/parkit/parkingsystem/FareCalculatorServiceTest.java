@@ -153,6 +153,22 @@ public class FareCalculatorServiceTest {
     }
 
 
+    @Test
+    public void givenFreeFareBikeWithLessThirtyOneMinutesParkingTime() {
+        // GIVEN
+        Date inTime = new Date();
+        inTime.setTime(System.currentTimeMillis() - (30 * 60 * 1000));
+        Date outTime = new Date();
+        ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR, false);
 
+        // WHEN
+        ticket.setInTime(inTime);
+        ticket.setOutTime(outTime);
+        ticket.setParkingSpot(parkingSpot);
+        fareCalculatorService.calculateFare(ticket);
+
+        // THEN
+        assertEquals((0.0 * Fare.CAR_RATE_PER_HOUR), ticket.getPrice());
+    }
 
 }
