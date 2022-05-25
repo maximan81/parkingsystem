@@ -1,5 +1,5 @@
 # project start
-version: v.0.1
+version: v.0.2
 # Parking System
 A command line app for managing the parking system. 
 This app uses Java to run and stores the data in Mysql DB.
