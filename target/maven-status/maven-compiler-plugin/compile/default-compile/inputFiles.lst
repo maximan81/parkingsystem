@@ -1,12 +1,13 @@
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\service\InteractiveShell.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\model\ParkingSpot.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\service\FareCalculatorService.java
-C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\constants\DBConstants.java
+C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\constants\DbConstants.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\config\DataBaseConfig.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\constants\ParkingType.java
-C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\dao\ParkingSpotDAO.java
+C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\util\Credentials.java
+C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\dao\ParkingSpotDao.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\model\Ticket.java
-C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\dao\TicketDAO.java
+C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\dao\TicketDao.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\App.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\constants\Fare.java
 C:\Users\maxit\Documents\openclassrooms projects\4 - Testez l'implémentation d'une nouvelle fonctionnalité Java\1 - code\parkingsystem\src\main\java\com\parkit\parkingsystem\service\ParkingService.java
