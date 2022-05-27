@@ -1,6 +1,6 @@
 # project start
 
-version: v.0.5
+version: v.0.6
 
 # Parking System
 
