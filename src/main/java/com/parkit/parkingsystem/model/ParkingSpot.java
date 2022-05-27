@@ -66,4 +66,14 @@ public class ParkingSpot {
   public int hashCode() {
     return number;
   }
+
+  public ParkingSpot copy() {
+    ParkingSpot parkingSpot = new ParkingSpot(number, parkingType, isAvailable);
+    parkingSpot.number = number;
+    parkingSpot.parkingType = parkingType;
+    parkingSpot.isAvailable = isAvailable;
+
+    return  parkingSpot;
+
+  }
 }
