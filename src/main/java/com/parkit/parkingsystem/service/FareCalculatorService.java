@@ -32,7 +32,6 @@ public class FareCalculatorService {
     if (duration > 0.50) {
       switch (ticket.getParkingSpot().getParkingType()) {
         case CAR: {
-          System.out.println(NumberOfTimesForDiscount);
           double priceDiscount =
               (duration * Fare.CAR_RATE_PER_HOUR) - (duration * Fare.CAR_RATE_PER_HOUR * Discount);
           double price = duration * Fare.CAR_RATE_PER_HOUR;

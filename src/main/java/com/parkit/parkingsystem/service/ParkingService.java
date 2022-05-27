@@ -100,6 +100,7 @@ public class ParkingService {
       }
     } catch (IllegalArgumentException ie) {
       logger.error("Error parsing user input for type of vehicle", ie);
+      throw new IllegalArgumentException("Error parsing user input for type of vehicle");
     } catch (Exception e) {
       logger.error("Error fetching next available parking slot", e);
     }
@@ -110,7 +111,7 @@ public class ParkingService {
    * getVehicleType. method that get vehicle type
    *
    */
-  private ParkingType getVehicleType() {
+  public ParkingType getVehicleType() {
     System.out.println("Please select vehicle type from menu");
     System.out.println("1 CAR");
     System.out.println("2 BIKE");

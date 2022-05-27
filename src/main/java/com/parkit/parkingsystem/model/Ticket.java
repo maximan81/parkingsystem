@@ -26,11 +26,11 @@ public class Ticket {
   }
 
   public ParkingSpot getParkingSpot() {
-    return parkingSpot;
+    return parkingSpot.copy();
   }
 
   public void setParkingSpot(ParkingSpot parkingSpot) {
-    this.parkingSpot = parkingSpot;
+    this.parkingSpot = parkingSpot.copy();
   }
 
   public String getVehicleRegNumber() {
@@ -50,19 +50,19 @@ public class Ticket {
   }
 
   public Date getInTime() {
-    return inTime;
+    return (Date) inTime.clone();
   }
 
   public void setInTime(Date inTime) {
-    this.inTime = inTime;
+    this.inTime = (Date) inTime.clone();
   }
 
   public Date getOutTime() {
-    return outTime;
+    return (Date) outTime.clone();
   }
 
   public void setOutTime(Date outTime) {
-    this.outTime = outTime;
+    this.outTime = (Date) outTime.clone();
   }
 
   public int getRepeatUsers() {
