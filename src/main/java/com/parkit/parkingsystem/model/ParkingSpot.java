@@ -67,13 +67,4 @@ public class ParkingSpot {
     return number;
   }
 
-  public ParkingSpot copy() {
-    ParkingSpot parkingSpot = new ParkingSpot(number, parkingType, isAvailable);
-    parkingSpot.number = number;
-    parkingSpot.parkingType = parkingType;
-    parkingSpot.isAvailable = isAvailable;
-
-    return  parkingSpot;
-
-  }
 }
